@@ -11,6 +11,8 @@
 		A07A2ABD27229927007DC95B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A2ABC27229927007DC95B /* ContentView.swift */; };
 		A07A2ABF27229929007DC95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07A2ABE27229929007DC95B /* Assets.xcassets */; };
 		A07A2AC227229929007DC95B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07A2AC127229929007DC95B /* Preview Assets.xcassets */; };
+		A07A2ACA27229960007DC95B /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A2AC927229960007DC95B /* Examples.swift */; };
+		A07A2ACC27229E57007DC95B /* SwiftUISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07A2ACB27229E57007DC95B /* SwiftUISettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A07A2ABE27229929007DC95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A07A2AC127229929007DC95B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A07A2AC327229929007DC95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07A2AC927229960007DC95B /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		A07A2ACB27229E57007DC95B /* SwiftUISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A07A2ABA27229927007DC95B /* MyThirdTestAppApp.swift */,
 				A07A2ABC27229927007DC95B /* ContentView.swift */,
+				A07A2ACB27229E57007DC95B /* SwiftUISettings.swift */,
+				A07A2AC927229960007DC95B /* Examples.swift */,
 				A07A2ABE27229929007DC95B /* Assets.xcassets */,
 				A07A2AC327229929007DC95B /* Info.plist */,
 				A07A2AC027229929007DC95B /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07A2ACC27229E57007DC95B /* SwiftUISettings.swift in Sources */,
 				A07A2ABD27229927007DC95B /* ContentView.swift in Sources */,
+				A07A2ACA27229960007DC95B /* Examples.swift in Sources */,
 				A07A2ABB27229927007DC95B /* MyThirdTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
